@@ -189,26 +189,39 @@ var myFavoriteColor = "White"
 
  
 //3. Use string interpolation to write at least 3 different sentences about yourself, using at least one variable in each sentence.
-
-
+print("The name of this KWK Scholar is " + nameOfScholar)
+print("Her address is a " + address)
+print("There are many colors in " + nameOfScholar + "'s life. The color of her eyes are " + eyeColor + ", and her favorite color is " + myFavoriteColor)
 
 /* Mild Challenge - Declaring Variables:
 
 For each item below, determine what data type would be appropriate.
-  collegeAttended
-  numberOfPlacesTraveleved
-  bestFriend
-  numberOfCitiesLivedIn
+  collegeAttended stored as const
+  numberOfPlacesTraveleved stored as var
+  bestFriend stored as var
+  numberOfCitiesLivedIn stored as var
 
 Declare a variable or constant for each item without assign a value. */
-
+let collegeAttended: String
+var numberOfPlacesTraveleved: Int
+var bestFriend: String
+var numberOfCitiesLivedIn: Int
 
 /* Medium Challenge - Calculate and Print: 
 Find the answer to this problem using Swift:
- Karina earns $10.25 per hour at her job at Express. If she worked 20 hours last week, how much should she get paid? Print a complete sentence out with the total. */
-
+  Karina earns $10.25 per hour at her job at Express. If she worked 20 hours last week, how much should she get paid? Print a complete sentence out with the total. */
+var earnings = 10.25
+var hours = 20.00
+var salary = earnings*hours
+print("Karina earns $\(salary) each week.")
 
 /* Spicy Challenge - String Compression:
  Write an algorithm that outputs the first letter, the number of letters in the middle, and the last letter. For exmaple: For the string Klossy it'd output K4y or scholar would be s5r. */
-
-
+var testName = "Kayley"
+//print (testName) // works DUH
+var firstChar = testName.prefix(1)
+//print(firstChar) // prints out the first character, woohoo! breakthrough!
+var lastChar = testName.suffix(testName.count-(testName.count-1))
+//print(lastChar) // yay Java logic is coming back, albeit slowly
+var testNameNumber = testName.count-2
+print("\(firstChar)\(testNameNumber)\(lastChar)") // THIS WORKS!
