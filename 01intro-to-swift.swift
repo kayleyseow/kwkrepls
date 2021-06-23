@@ -160,10 +160,11 @@ var integerNum = 4
 var doubleNum = 5.0
 Double(integerNum)*doubleNum //=20.0
 
+
 //  🌷 Practice
 
 /* A. Initializing Variables - Directions:
- 1.  For each item on the list below, determine if it should be stored as a variable or constant. Be ready to explain your thinking.
+1.  For each item on the list below, determine if it should be stored as a variable or constant. Be ready to explain your thinking.
  - nameOfScholar stored as a constant
  - address stored as a variable
  - cityBornIn stored as a constant
@@ -173,16 +174,15 @@ Double(integerNum)*doubleNum //=20.0
  - eyeColor stored as a constant
  - myFavoriteColor stored as a variable
 
- 2. Initialize variables or constants for each of the items listed above, and assign an appropriate value. */
-
-// nameOfScholar
-// address
-// cityBornIn
-// gradeLevel
-// birthday
-// age
-// eyeColor
-// myFavoriteColor
+2. Initialize variables or constants for each of the items listed above, and assign an appropriate value. */
+  // nameOfScholar
+  // address
+  // cityBornIn
+  // gradeLevel
+  // birthday
+  // age
+  // eyeColor
+  // myFavoriteColor
 let nameOfScholar = "Kayley"
 var address = "A Secret!"
 let cityBornIn = "Hayward, CA"
@@ -191,7 +191,6 @@ let birthday = "December"
 var age = "18"
 let eyeColor = "Black"
 var myFavoriteColor = "White"
-
  
 //3. Use string interpolation to write at least 3 different sentences about yourself, using at least one variable in each sentence.
 print("The name of this KWK Scholar is " + nameOfScholar)
