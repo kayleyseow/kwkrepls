@@ -2,9 +2,7 @@
 //  01 - Intro to Swift & Data Types
 /*******************************/
 
-
 //  Examples of a string
-
 print("Hello World!")
 
 // 🌵 Try It: Strings
@@ -26,13 +24,14 @@ print("🌵 🌵 🌵")
 
 
 //  Examples of initializing a variable
-
 var listName = "Reminders"
 var totalReminders = "five"
 var reminder = "Take the dogs for a walk"
 
 // 🎄 Examples of printing a variable
-
+print(listName)
+print(totalReminders)
+print(reminder)
 
 /*  🎄 Try It: Strings and Variables
 For each of the prompts below:
@@ -63,16 +62,18 @@ print(hobby)
 
 print("🎄 🎄 🎄")
 
+
 //  🌳 Reassign the variable januaryAvg + marchAvg + novemberAvg / julyAvg
 
 //  Example of Constants
 let name = "Karlie"
 
 //  🌳 Example of String interpolation 
-
+print("First name is", name)
 
 
 print("🌳 🌳 🌳")
+
 
 //  🍀 Try It: Strings
 // 1. Declare the following variables:
@@ -100,8 +101,10 @@ print("🍀 🍀 🍀")
 
 
 //  🍁 Examples of Integers in Action: Math Operations 
-
-
+3+5 //=8
+12/2 //=6
+18-8 //=10
+(3+2)*8 //=40
 
 //  🍁 Example of Integers in Action: Math with Variables
 var tinsOfKookies = 1200
@@ -111,10 +114,11 @@ var mealsDonated = tinsOfKookies * mealsDonatedPerTin;
 
 print(mealsDonated);
 
-
 print("Because \(tinsOfKookies) tins of kookies were purchased during Fashion's Night Out, \(mealsDonated) meals were donated to starving children all over the world. Thanks, \(first)!")
 
+
 print("🍁 🍁 🍁")
+
 
 //  🍄 Try It: Intergers & Operators
 //  Start with the following numbers:
@@ -147,13 +151,14 @@ var totalScholars = scholars*camps
 
 print("With \(scholars) scholars and \(camps) camps taking place, there are a total of \(totalScholars) scholars in the program.")
 
+
 print("🍄 🍄 🍄")
 
-//  🌷 Example of Working with Doubles and Integers
 
+//  🌷 Example of Working with Doubles and Integers
 var integerNum = 4
 var doubleNum = 5.0
-
+Double(integerNum)*doubleNum //=20.0
 
 //  🌷 Practice
 
