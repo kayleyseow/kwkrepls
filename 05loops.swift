@@ -95,9 +95,9 @@ print("🐙 🐙 🐙")
 
 //  Mild Challenge 
 //  a. Write a for-in loop that prints "Are we there yet?" to the console 100 times.
-/*for _ in 1...100{
+for _ in 1...100{
   print("Are we there yet?")
-}*/
+}
 
 //  b. Write a for-in loop that prints "I've had ___ frappuccinos today!" to the console 10 times, with the numbers 1 - 10 filled in for the blank.
 for fraps in 1...10{
@@ -106,22 +106,21 @@ for fraps in 1...10{
 
 //  Medium Challenge 
 //  Write a for-in loop that prints "I've had ___ frappuccinos today!" to the console 5 times for each number, starting at 7.
-/*for fraps in 7...14{
+for fraps in 7...14{
   for _ in 0...4{
     print("I've had \(fraps) frappucinos today!")
   }
-}*/
+}
 
 //  Spicy Challenge
 //  Write a for-in loop that prints "I've had ___ frappuccinos today!" to the console 10 times, with the numbers 0 - 9 filled in for the blank. However, the second statement printed out technically has incorrect grammar. That sentence should say "I've had 1 frappuccino today", with frappuccino being singular. How can you utilize other concepts you've learned this week to accomplish that?
-
-/*for fraps in 0...9{
+for fraps in 0...9{
   var frapsWord = "frappuccinos"
   if fraps==1{
     frapsWord = "frappuccino"
   }
   print("I've had \(fraps) \(frapsWord) today!")
-}*/
+}
 
 
 print("🐳 🐳 🐳")
@@ -155,7 +154,6 @@ var dogWalks = [4, 5, 2, 2, 6, 1, 3]
 for walk in dogWalks{
   print("Trisha earned $\(walk*22) today!")
 }
-
 
 //  YELLING: Iterate over an array of strings. For each string, print out the YELLING version of it. Look into how to convert a string to uppercase!
 var arrayOfWords = ["Bumfuzzle", "Lollygag", "Nudiustertian", "Brouhaha", "Batrachomyomachy", "Cattywampus", "Gardyloo", "Taradiddle", "Snickersnee", "Widdershins"]
