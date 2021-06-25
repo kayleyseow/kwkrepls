@@ -1,2 +1,2 @@
 # kwkrepls
-github backups of repls from kwk mobile app dev camp
+github backups of repls and material from kwk mobile app dev camp
