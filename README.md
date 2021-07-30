@@ -1,2 +1,3 @@
 # kwkrepls
-github backups of repls and material from kwk mobile app dev camp
+**Backups of material from Kode With Klossy Summer Code Camp**  
+**KWK Mobile Application Development Track, 2021 Wave 2 PST Camp**  
